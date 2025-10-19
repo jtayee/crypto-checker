@@ -34,7 +34,7 @@ if __name__ == "__main__":
     elif choice == "2":
         btc = float(input("Enter BTC amount: "))
         usd = btc_to_usd(btc)
-        print(f"${btc} = {usd:.8f} BTC")
+        print(f"{btc} BTC = ${usd:,.2f}")
     else:
         print("Invalid choice.")
 
